@@ -13,22 +13,35 @@ void times_table(void)
 		for (line = 0; line < 10; line++)
 		{
 			n = line * colon;
-			if (n >= 10)
+			if (line < 9)
 			{
-				_putchar(n / 10 + '0');
-				_putchar(n % 10 + '0');
-				_putchar(',');
-				_putchar('.');
+				if (n >= 10)
+				{
+					_putchar(n / 10 + '0');
+					_putchar(n % 10 + '0');
+					_putchar(',');
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar(n + '0');
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 			}
-			else
+			else 
 			{
-				_putchar(n + '0');
-				_putchar(',');
-				_putchar('.');
-				_putchar('.');
-			}
-		}
-		_putchar('\n');
+				if (n >= 10)
+				{
+					_putchar(n / 10 + '0');
+					_putchar(n % 10 + '0');
+				}
+				else
+				{
+					_putchar(n + '0');
+				}
+			_putchar('\n');
 	}
 }
 
