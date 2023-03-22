@@ -4,10 +4,9 @@
  *
  * Return: void
  */
-int _abs(int)
+int _abs(int a)
 {
-	int a;
-	int abs;
+	int abs = 0;
 
 	if (a < 0)
 	{
