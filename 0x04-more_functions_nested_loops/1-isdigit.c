@@ -4,7 +4,7 @@
  * @c: the digit to check
  *
  * Return: if digit 1
- * else 0
+ * otherwise 0
  */
 int _isdigit(int c)
 {
