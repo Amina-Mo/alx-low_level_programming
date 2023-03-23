@@ -1,19 +1,13 @@
 #include <stdio.h>
 /**
-*prints all the alphabet using function putchar
+*print alphabets in lower case
 */
 int main(void)
 {
-char a;
-a=a;
-if ( a <= z )
+int x;
+for (x = a; x <= z; x++)
 {
-putchar (a);
-a++;
-}
-else
-{
-return 0;
+putchar (x);
 }
 return 0;
 }
