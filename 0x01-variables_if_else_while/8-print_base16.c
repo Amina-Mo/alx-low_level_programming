@@ -16,7 +16,7 @@ int main(void)
 	}
 	for (j = 0; j < 6; j++)
 	{
-		putchar(hex[j]);
+		putchar(hexa[j]);
 	}
 	putchar('\n');
 	return (0);
