@@ -66,5 +66,6 @@ int main(void)
 	putchar('1');
 	putchar('9');
 	putchar('\n');
+	return (1);
 }
 
