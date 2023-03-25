@@ -2,9 +2,9 @@
 /**
  * main - prints alphabet lowercase and uppercase
  *
- * Return: void
+ * Return: on success 0.
  */
-void main(void)
+int main(void)
 {
 	char i, j;
 
