@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
-*the main function here prints "Programming is like building a multilingual puzzle , using the puts function
+*  main - prints ""Programming is like building a multilingual puzzle
+*
+*  Return: void
 */
 int main(void)
 {
