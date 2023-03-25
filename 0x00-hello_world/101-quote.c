@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
  * main - prints a statement
  *
@@ -6,9 +6,8 @@
  */
 int main(void)
 {
-	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	
-	write(STDERR_FILENO, message, 40);
+	fprintf(stderr, "and that piece of art is useful\" - ");
+	fprintf(stderr, "Dora Korpar, 2015-10-19\n");
 	return (1);
 }
 
