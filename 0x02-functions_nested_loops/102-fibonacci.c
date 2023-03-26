@@ -7,13 +7,12 @@
 int main(void)
 {
 	int i;
-	int Fibonacci = 0;
 
-	for (i = 2; i <= 52; i++)
+	for (i = 2; i < 50; i++)
 	{
-		Fibonacci = i + i - 1;
+		i = i + i - 1;
 		printf("%d", Fibonacci);
-		if (i < 52)
+		if (i < 49)
 		{
 			printf(", ");
 		}
