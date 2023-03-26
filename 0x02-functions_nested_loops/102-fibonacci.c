@@ -11,7 +11,7 @@ int main(void)
 	for (i = 2; i < 50; i++)
 	{
 		i = i + i - 1;
-		printf("%d", Fibonacci);
+		printf("%d", i);
 		if (i < 49)
 		{
 			printf(", ");
