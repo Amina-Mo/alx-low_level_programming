@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - computes and prints the sum of all the multiples 
+ * main - computes and prints the sum of all the multiples
  * of 3 or 5 below 1024 (excluded)
- * Return: sum of numbers
+ * Return: on success 0.
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 			sum = sum + i;
 		}
 	}
-	printf("%d", sum);
-	return (sum);
+	printf("%d\n", sum);
+	return (0);
 }
 
