@@ -16,6 +16,7 @@ int _atoi(char *s)
 		while (*ptr < '0' || *ptr > '9')
 		{
 			if (*s == '-')
+
 			{
 				i++;
 				ptr++;
@@ -26,7 +27,7 @@ int _atoi(char *s)
 				ptr++;
 			}
 			else
-			{
+		{
 				ptr++;
 			}
 		}
