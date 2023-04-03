@@ -5,17 +5,18 @@
  * @s: pointer
  * @b: value
  * @n: number of bytes to fill
- * Return: pointer s
+ * Return: pointer to s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *ptr = s;
+	char **ptr = &s;
+	char **ps = &s;
 	int i;
 
-	for (i = 0; i < n && *ptr != '\0'; i++)
+	for (i = 0; i < n ; i++)
 	{
 		ptr[i] = b;
 	}
-	return (s);
+	return (ps);
 }
 
