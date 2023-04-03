@@ -12,6 +12,7 @@ char *_strchr(char *s, char c)
 		if (*s == c)
 		{
 			return (s);
+			break;
 		}
 		s++;
 	}
@@ -19,6 +20,9 @@ char *_strchr(char *s, char c)
 	{
 		return (s);
 	}
-	return (NULL);
+	else
+	{
+		return (NULL);
+	}
 }
 
