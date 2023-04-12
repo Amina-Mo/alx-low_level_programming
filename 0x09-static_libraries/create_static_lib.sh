@@ -4,6 +4,6 @@ for file in $c_files
 do
 	gcc -c $file
 done
-ar rcs liball *.o
+ar rcs liball.a *.o
 rm *.o
 
