@@ -2,7 +2,9 @@
 #include <stdlib.h>
 /**
  * main - prints its name
- * Return: void
+ * @argc: number of arguments
+ * @argv: array of strings, commands
+ * Return: on success 0
  */
 int main(int argc, char **argv)
 {
