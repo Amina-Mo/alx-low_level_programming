@@ -10,7 +10,8 @@
 int main(int argc, char **argv)
 {
 	int mult = 0;
-	int n1, n2;
+	int n1;
+	int n2;
 
 	if (argc != 3)
 	{
