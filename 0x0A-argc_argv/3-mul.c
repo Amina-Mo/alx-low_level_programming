@@ -10,14 +10,17 @@
 int main(int argc, char **argv)
 {
 	int mult = 0;
+	int n1, n2;
 
-	if (argc < 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	mult = argv[1] * argv[2];
-	printf("%d", mult);
+	n1 = atoi(argv[1]);
+	n2 = atoi(argv[2]);
+	mult = n1 * n2;
+	printf("%d\n", mult);
 	return (0);
 }
 
