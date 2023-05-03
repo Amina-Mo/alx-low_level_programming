@@ -25,7 +25,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	{
 		ownerlen++;
 	}
-	d->name = malloc(namlen + 1);
+	d->name = malloc(namelen + 1);
 	d->owner = malloc(ownerlen + 1);
 	for (i = 0; i <= namlen; i++)
 	{
