@@ -27,7 +27,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	}
 	d->name = malloc(namelen + 1);
 	d->owner = malloc(ownerlen + 1);
-	for (i = 0; i <= namlen; i++)
+	for (i = 0; i <= namelen; i++)
 	{
 		d->name[i] = name[i];
 	}
